@@ -10,11 +10,11 @@ import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Humanloop Chatbot Stater',
-    template: `%s - Humanloop Chatbot Starter`
+    default: 'SKY DUST AI WORKSHOP',
+    template: `%s - SKY DUST AI WORKSHOP`
   },
   description:
-    'An AI-powered chatbot template built with Humanloop and Next.js.',
+    'SKY DUST AI WORKSHOP to learn to work with AI',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' }

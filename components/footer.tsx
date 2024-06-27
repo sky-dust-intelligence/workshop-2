@@ -13,9 +13,9 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       )}
       {...props}
     >
-      Open source AI chatbot built with{' '}
-      <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
-      <ExternalLink href="https://humanloop.com">Humanloop</ExternalLink>.
+      Sky Dust is een organisatie actief in duurzaamheidrapportage gedreven met Artificial Intelligence{' '}
+      <ExternalLink href="https://98e4e930.site.sitekick.ai/">Sky Dust</ExternalLink> and{' '}
+      <ExternalLink href="https://98e4e930.site.sitekick.ai/about-us">Over ons</ExternalLink>.
     </p>
   )
 }

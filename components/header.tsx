@@ -32,12 +32,12 @@ export async function Header() {
         <ThemeToggle />
         <a
           target="_blank"
-          href="https://github.com/humanloop/chatbot-starter/"
+          href="https://https://98e4e930.site.sitekick.ai/"
           rel="noopener noreferrer"
           className={cn(buttonVariants({ variant: 'outline' }))}
         >
           <IconGitHub />
-          <span className="ml-2 hidden md:flex">GitHub</span>
+          <span className="ml-2 hidden md:flex">SKY DUST</span>
         </a>
       </div>
     </header>

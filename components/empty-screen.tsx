@@ -24,15 +24,15 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to the SKYDUST AI WORKSHOP APP
+          Welkom bij de AI workshop van SKY DUST met Nick Nijhuis
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
           Dit is een AI workshop app van Sky Dust Inteligence gebouwd door Nick Nijhuis{' '}
-          <ExternalLink href="https://98e4e930.site.sitekick.ai/">SKY DUST</ExternalLink> and{' '}
-          <ExternalLink href="https://skydust.info">Sky Dust workshops</ExternalLink>.
+          <ExternalLink href="https://98e4e930.site.sitekick.ai/about-us">SKY DUST</ExternalLink> and{' '}
+          <ExternalLink href="https://skydust.io">Sky Dust</ExternalLink>.
         </p>
         <p className="leading-normal text-muted-foreground">
-          Try the following examples below by clicking on them.
+          Om te beginnen, typ een vraag of een opdracht in het tekstveld hieronder en druk op enter. Hier zijn een paar voorbeelden om je op weg te helpen:
         </p>
         <div className="mt-4 flex flex-col items-start space-y-2">
           {exampleMessages.map((message, index) => (
