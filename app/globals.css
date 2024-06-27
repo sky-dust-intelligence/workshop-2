@@ -4,67 +4,67 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    --background: 0 0% 93%; /* Changed from white to #eeeeee */
+    --foreground: 210 15% 20%; /* Calmer blue-grey */
 
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
+    --muted: 210 14% 80%; /* Calmer muted color */
+    --muted-foreground: 210 10% 30%; /* Calmer muted foreground */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+    --popover: 0 0% 93%; /* Same as background */
+    --popover-foreground: 210 15% 20%; /* Same as foreground */
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card: 0 0% 93%; /* Same as background */
+    --card-foreground: 210 15% 20%; /* Same as foreground */
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
+    --border: 210 14% 80%; /* Calmer border color */
+    --input: 210 14% 80%; /* Calmer input color */
 
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 210 100% 35%; /* Calmer primary color */
+    --primary-foreground: 0 0% 100%; /* White for contrast */
 
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
+    --secondary: 210 50% 65%; /* Calmer secondary color */
+    --secondary-foreground: 210 100% 35%; /* Calmer secondary foreground */
 
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: ;
+    --accent: 34 100% 50%; /* Calmer accent color */
+    --accent-foreground: 210 15% 20%; /* Calmer accent foreground */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 100% 40%; /* Calmer destructive color */
+    --destructive-foreground: 0 0% 100%; /* White for contrast */
 
-    --ring: 240 5% 64.9%;
+    --ring: 210 50% 65%; /* Calmer ring color */
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 210 15% 20%; /* Calmer dark background */
+    --foreground: 0 0% 93%; /* Lighter text for dark mode */
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 210 20% 30%; /* Darker muted color for dark mode */
+    --muted-foreground: 0 0% 93%; /* Lighter muted foreground for dark mode */
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 210 15% 20%; /* Same as dark background */
+    --popover-foreground: 0 0% 93%; /* Same as light foreground */
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 210 15% 20%; /* Same as dark background */
+    --card-foreground: 0 0% 93%; /* Same as light foreground */
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
+    --border: 210 20% 30%; /* Darker border for dark mode */
+    --input: 210 20% 30%; /* Darker input for dark mode */
 
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
+    --primary: 0 0% 93%; /* Lighter primary for dark mode */
+    --primary-foreground: 210 100% 35%; /* Calmer primary foreground for dark mode */
 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 210 20% 30%; /* Darker secondary for dark mode */
+    --secondary-foreground: 0 0% 93%; /* Lighter secondary foreground for dark mode */
 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: ;
+    --accent: 34 100% 50%; /* Calmer accent color for dark mode */
+    --accent-foreground: 0 0% 93%; /* Lighter accent foreground for dark mode */
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 85.7% 97.3%;
+    --destructive: 0 100% 40%; /* Calmer destructive color for dark mode */
+    --destructive-foreground: 0 0% 93%; /* Lighter destructive foreground for dark mode */
 
-    --ring: 240 3.7% 15.9%;
+    --ring: 210 20% 30%; /* Darker ring for dark mode */
   }
 }
 

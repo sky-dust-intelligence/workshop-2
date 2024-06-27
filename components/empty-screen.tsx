@@ -27,7 +27,7 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
           Welkom bij de AI workshop van SKY DUST met Nick Nijhuis
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          Dit is een AI workshop app van Sky Dust Inteligence gebouwd door Nick Nijhuis{' '}
+          Dit is een AI workshop app van 'Sky Dust' met Nick Nijhuis{' '}
           <ExternalLink href="https://98e4e930.site.sitekick.ai/about-us">SKY DUST</ExternalLink> and{' '}
           <ExternalLink href="https://skydust.io">Sky Dust</ExternalLink>.
         </p>

@@ -13,17 +13,19 @@ export const metadata: Metadata = {
     default: 'SKY DUST AI WORKSHOP',
     template: `%s - SKY DUST AI WORKSHOP`
   },
-  description:
-    'SKY DUST AI WORKSHOP to learn to work with AI',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' }
-  ],
+  description: 'SKY DUST AI WORKSHOP to learn to work with AI',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
     apple: '/apple-touch-icon.png'
   }
+}
+
+export const viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: 'white' },
+    { media: '(prefers-color-scheme: dark)', color: 'black' }
+  ]
 }
 
 interface RootLayoutProps {
